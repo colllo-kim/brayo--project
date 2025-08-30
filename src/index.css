@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: 0 0% 100%; /* white */
+  --foreground: 222.2 84% 4.9%; /* dark text */
+
+  --primary: 220 90% 56%; /* bright blue */
+  --primary-foreground: 0 0% 100%; /* white */
+
+  --secondary: 260 80% 60%;
+  --secondary-foreground: 0 0% 100%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222.2 84% 4.9%;
+
+  --radius: 0.75rem; /* matches your config */
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-white/10 bg-white/10 dark:bg-white/5 backdrop-blur-md shadow-lg;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-xl px-5 py-2 font-medium transition shadow-md hover:shadow-lg;
+  }
+  .container-75 {
+    @apply max-w-[75rem] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}

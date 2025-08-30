@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage
+coverage/
+
+# Android specific
+.gradle/
+local.properties
+*.iml
+.gradle/
+app/build/
+
+# macOS
+.DS_Store
+
+# Windows
+desktop.ini
+node_modules
