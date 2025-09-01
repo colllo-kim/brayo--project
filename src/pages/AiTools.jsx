@@ -550,7 +550,7 @@ function ToolSmartSearch() {
 }
 
 // ---------- Main Dashboard ----------
-export default function AITools() {
+export default function AiTools() {
   const [selectedTool, setSelectedTool] = useLocal("ucyber.ai.selected", toolsList[0]);
   const [history, setHistory] = useLocal("ucyber.ai.history", []);
   const [query, setQuery] = useState("");

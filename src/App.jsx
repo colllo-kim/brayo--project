@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import Services from "./pages/Services.jsx";
-import AITools from "./pages/AITools.jsx";
+import AITools from "./pages/AiTools.jsx";
 import Shop from "./pages/Shop.jsx";
 import Booking from "./pages/Booking.jsx";
 import Payment from "./pages/Payment.jsx";
